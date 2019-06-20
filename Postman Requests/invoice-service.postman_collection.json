@@ -1,0 +1,138 @@
+{
+	"id": "ac780e80-e2c5-f0d0-096e-5a2b2516b537",
+	"name": "invoice-service",
+	"description": "",
+	"order": [
+		"3ff89373-a333-d7e8-e478-fa775a0af894",
+		"88070943-7cd1-76bd-fc18-11f0688f79f8",
+		"67e41eb9-2e42-b848-9cc5-361acb2627f7",
+		"d38932c0-067f-99ad-ecdf-c3728e600746"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1559629035561,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "3ff89373-a333-d7e8-e478-fa775a0af894",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/imscloud/invoice",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559630546962,
+			"name": "POST",
+			"description": "",
+			"collectionId": "ac780e80-e2c5-f0d0-096e-5a2b2516b537",
+			"responses": [],
+			"rawModeData": "{\n\t\"code\":\"\",\n\t\"date\":\"\",\n\t\"total\":120.0,\n\t\"discountAmount\":40,\n\t\"customerId\":1,\n\t\"userId\":2\n}"
+		},
+		{
+			"id": "67e41eb9-2e42-b848-9cc5-361acb2627f7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/imscloud/invoice",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559641491666,
+			"name": "POST copy copy",
+			"description": "",
+			"collectionId": "ac780e80-e2c5-f0d0-096e-5a2b2516b537",
+			"responses": [],
+			"rawModeData": "{\n    \"date\": \"2019-06-04T09:28:06.535+0000\",\n    \"total\": 120,\n    \"discountAmount\": 10,\n    \"customerId\": 1,\n    \"userId\": 2,\n    \"invoiceDetails\": \n    [\n    {\"itemId\":1,\"quantity\":10,\"amount\":12000}, \n    {\"itemId\":2,\"quantity\":5,\"amount\":1000}\n    ]\n}"
+		},
+		{
+			"id": "88070943-7cd1-76bd-fc18-11f0688f79f8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/invoice",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559805163913,
+			"name": "POST copy",
+			"description": "",
+			"collectionId": "ac780e80-e2c5-f0d0-096e-5a2b2516b537",
+			"responses": [],
+			"rawModeData": "{\n    \"billDate\": \"2019-06-06T09:28:06.535+0000\",\n    \"total\": 120\n}"
+		},
+		{
+			"id": "d38932c0-067f-99ad-ecdf-c3728e600746",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/imscloud/invoice/search",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559879212644,
+			"name": "Invoice Search",
+			"description": "",
+			"collectionId": "ac780e80-e2c5-f0d0-096e-5a2b2516b537",
+			"responses": [],
+			"rawModeData": "{\n    \"billDate\": \"2019-06-04T09:28:06.535+0000\"\n    \n}"
+		}
+	]
+}

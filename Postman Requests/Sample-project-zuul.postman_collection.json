@@ -1,0 +1,184 @@
+{
+	"id": "f40e9e15-f70b-691b-f38c-52159be3a7c8",
+	"name": "Sample-project-zuul",
+	"description": "",
+	"order": [
+		"5fa9be70-4020-4752-0766-cab06d321fd8",
+		"a04c24f0-404e-632b-f9a7-56266d3cc140",
+		"0ef14ab6-47bd-78d9-1269-5440696fddec",
+		"de009d17-3d99-97e6-fd02-b8f3023c7c3e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1561002096812,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0ef14ab6-47bd-78d9-1269-5440696fddec",
+			"headers": "Authorization: Basic d2ViOndlYg==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic d2ViOndlYg==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/oauth",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "pasindu",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "pasindu",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scope",
+					"value": "mobile",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1561005151419,
+			"name": "Authentication",
+			"description": "",
+			"collectionId": "f40e9e15-f70b-691b-f38c-52159be3a7c8",
+			"responses": []
+		},
+		{
+			"id": "5fa9be70-4020-4752-0766-cab06d321fd8",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f40e9e15-f70b-691b-f38c-52159be3a7c8",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET employees",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1561002117665,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a04c24f0-404e-632b-f9a7-56266d3cc140",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "f40e9e15-f70b-691b-f38c-52159be3a7c8",
+			"data": null,
+			"dataMode": "params",
+			"name": "Zuul routes",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1561002117665,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "5fa9be70-4020-4752-0766-cab06d321fd8"
+		},
+		{
+			"id": "de009d17-3d99-97e6-fd02-b8f3023c7c3e",
+			"headers": "Authorization: Basic d2ViOndlYg==\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic d2ViOndlYg==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8081/oauth",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "pasindu",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "pasindu",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scope",
+					"value": "mobile",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1561005151419,
+			"name": "Check Token",
+			"description": "",
+			"collectionId": "f40e9e15-f70b-691b-f38c-52159be3a7c8",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "0ef14ab6-47bd-78d9-1269-5440696fddec"
+		}
+	]
+}

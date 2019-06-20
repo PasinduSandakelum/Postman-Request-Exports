@@ -1,0 +1,142 @@
+{
+	"id": "bed6c865-a79b-b1dc-3e09-2812be05b7ae",
+	"name": "allocation-service",
+	"description": "",
+	"order": [
+		"ae03b067-9ac1-d709-0d88-c1f0c3ba73a9",
+		"1854181e-340c-9321-bf68-e02f536ff669",
+		"2210e697-1d53-dd5b-1ccd-e76e478cd71d",
+		"0f6f546e-0bb6-6099-f1e0-396c73ae42d3"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1559114989189,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0f6f546e-0bb6-6099-f1e0-396c73ae42d3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/ems/allocations",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559115295266,
+			"name": "GET ByEmployeeId",
+			"description": "",
+			"collectionId": "bed6c865-a79b-b1dc-3e09-2812be05b7ae",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "2210e697-1d53-dd5b-1ccd-e76e478cd71d",
+			"rawModeData": "{"
+		},
+		{
+			"id": "1854181e-340c-9321-bf68-e02f536ff669",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/ems/allocations",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559115295266,
+			"name": "GET",
+			"description": "",
+			"collectionId": "bed6c865-a79b-b1dc-3e09-2812be05b7ae",
+			"responses": [],
+			"rawModeData": "{"
+		},
+		{
+			"id": "2210e697-1d53-dd5b-1ccd-e76e478cd71d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/ems/allocations",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559115295266,
+			"name": "GET ById",
+			"description": "",
+			"collectionId": "bed6c865-a79b-b1dc-3e09-2812be05b7ae",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "1854181e-340c-9321-bf68-e02f536ff669",
+			"rawModeData": "{"
+		},
+		{
+			"id": "ae03b067-9ac1-d709-0d88-c1f0c3ba73a9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1559115227204,
+			"name": "POST",
+			"description": "",
+			"collectionId": "bed6c865-a79b-b1dc-3e09-2812be05b7ae",
+			"responses": [],
+			"rawModeData": "{\n\t\"empId\":1,\n\t\"projectId\":1,\n\t\"from\":\"2019-05-29T07:32:00.794+0000\",\n\t\"to\":\"2019-06-29T07:32:00.794+0000\"\n}"
+		}
+	]
+}

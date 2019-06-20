@@ -1,0 +1,308 @@
+{
+	"id": "191b0c0f-44d1-303e-c789-ee31e3d207fd",
+	"name": "Project-Group-2",
+	"description": "",
+	"order": [
+		"3541bf57-1071-fb00-60b1-ef407273e1f8",
+		"bfb5055b-9a2a-ec1a-5dea-fa53365be703",
+		"0e609f34-cddc-845e-422b-94198197d154",
+		"845ee096-2595-655b-4ea3-06866452085c",
+		"64bc2fd1-88bc-f85c-5714-3266202519ef",
+		"13d3a861-0a09-ded7-5d97-eaa5efac13e1",
+		"7f115283-0238-2a03-a8a8-9ae713425af8",
+		"67da94ab-4541-cd00-a8eb-f8a9a54613e2"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1558505535545,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0e609f34-cddc-845e-422b-94198197d154",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/loyalty/cards",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1558939064007,
+			"name": "Get all",
+			"description": "",
+			"collectionId": "191b0c0f-44d1-303e-c789-ee31e3d207fd",
+			"responses": [],
+			"rawModeData": "{\n\t \"name\":\"shan jude\",\n\t \"number\":\"1241242\",\n\t \"pointBalance\":100.02,\n\t \"issuedDate\":\"\",\n\t \"expiryDate\":\"\",\n\t \"category\":{ \"type\":\"silver\",\"pointRange\":1000}\n}"
+		},
+		{
+			"id": "13d3a861-0a09-ded7-5d97-eaa5efac13e1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/loyalty/card?number=",
+			"queryParams": [
+				{
+					"key": "number",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1558939067047,
+			"name": "Get for customer email",
+			"description": "",
+			"collectionId": "191b0c0f-44d1-303e-c789-ee31e3d207fd",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "64bc2fd1-88bc-f85c-5714-3266202519ef",
+			"rawModeData": "{\n\t \"name\":\"shan jude\",\n\t \"number\":\"1241242\",\n\t \"pointBalance\":100.02,\n\t \"issuedDate\":\"\",\n\t \"expiryDate\":\"\",\n\t \"category\":{ \"type\":\"silver\",\"pointRange\":1000}\n}"
+		},
+		{
+			"id": "3541bf57-1071-fb00-60b1-ef407273e1f8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/loyalty/card",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1558505813711,
+			"name": "Post",
+			"description": "",
+			"collectionId": "191b0c0f-44d1-303e-c789-ee31e3d207fd",
+			"responses": [],
+			"rawModeData": "{\n\t \"name\":\"shan jude\",\n\t \"number\":\"1241242\",\n\t \"pointBalance\":100.02,\n\t \"issuedDate\":\"\",\n\t \"expiryDate\":\"\",\n\t \"category\":{ \"type\":\"silver\",\"pointRange\":1000}\n}"
+		},
+		{
+			"id": "64bc2fd1-88bc-f85c-5714-3266202519ef",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/loyalty/card?number=",
+			"queryParams": [
+				{
+					"key": "number",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1558939067047,
+			"name": "Get for customer name",
+			"description": "",
+			"collectionId": "191b0c0f-44d1-303e-c789-ee31e3d207fd",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "845ee096-2595-655b-4ea3-06866452085c",
+			"rawModeData": "{\n\t \"name\":\"shan jude\",\n\t \"number\":\"1241242\",\n\t \"pointBalance\":100.02,\n\t \"issuedDate\":\"\",\n\t \"expiryDate\":\"\",\n\t \"category\":{ \"type\":\"silver\",\"pointRange\":1000}\n}"
+		},
+		{
+			"id": "67da94ab-4541-cd00-a8eb-f8a9a54613e2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/loyalty/card?number=",
+			"queryParams": [
+				{
+					"key": "number",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1558939067047,
+			"name": "Stakeholder GET copy",
+			"description": "",
+			"collectionId": "191b0c0f-44d1-303e-c789-ee31e3d207fd",
+			"responses": [],
+			"isFromCollection": true,
+			"rawModeData": "{\n\t \"name\":\"shan jude\",\n\t \"number\":\"1241242\",\n\t \"pointBalance\":100.02,\n\t \"issuedDate\":\"\",\n\t \"expiryDate\":\"\",\n\t \"category\":{ \"type\":\"silver\",\"pointRange\":1000}\n}"
+		},
+		{
+			"id": "7f115283-0238-2a03-a8a8-9ae713425af8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/loyalty/card?number=",
+			"queryParams": [
+				{
+					"key": "number",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1558939067047,
+			"name": "Stakeholder GET",
+			"description": "",
+			"collectionId": "191b0c0f-44d1-303e-c789-ee31e3d207fd",
+			"responses": [],
+			"isFromCollection": true,
+			"rawModeData": "{\n\t \"name\":\"shan jude\",\n\t \"number\":\"1241242\",\n\t \"pointBalance\":100.02,\n\t \"issuedDate\":\"\",\n\t \"expiryDate\":\"\",\n\t \"category\":{ \"type\":\"silver\",\"pointRange\":1000}\n}"
+		},
+		{
+			"id": "845ee096-2595-655b-4ea3-06866452085c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/loyalty/card?number=",
+			"queryParams": [
+				{
+					"key": "number",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1558939067047,
+			"name": "Get for number",
+			"description": "",
+			"collectionId": "191b0c0f-44d1-303e-c789-ee31e3d207fd",
+			"responses": [],
+			"rawModeData": "{\n\t \"name\":\"shan jude\",\n\t \"number\":\"1241242\",\n\t \"pointBalance\":100.02,\n\t \"issuedDate\":\"\",\n\t \"expiryDate\":\"\",\n\t \"category\":{ \"type\":\"silver\",\"pointRange\":1000}\n}"
+		},
+		{
+			"id": "bfb5055b-9a2a-ec1a-5dea-fa53365be703",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/loyalty/card",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1558939274151,
+			"name": "Post Loyalty",
+			"description": "",
+			"collectionId": "191b0c0f-44d1-303e-c789-ee31e3d207fd",
+			"responses": [],
+			"rawModeData": "{\n\t \"name\":\"shan jude\",\n\t \"number\":\"123456\"\n}"
+		}
+	]
+}
